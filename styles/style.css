@@ -1,0 +1,52 @@
+/* fontss */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:ital,wght@1,500&display=swap');
+
+/* common styles or utilities */
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f1ff;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    align-items: center;
+    width: 870px;
+    padding: 30px;
+}
+
+hr{
+    border: 1px solid #d1d1d1;
+}
+/* top players styles */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #562eff;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
